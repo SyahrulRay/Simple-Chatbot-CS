@@ -3,7 +3,7 @@ README
 # 🤖 Chatbot Customer Support
 
 <p align="center">
-  <img src="assets/logo.png" alt="Chatbot Logo" width="200"/>
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fai-chatbot-logo&psig=AOvVaw2R0XrOPscRUpZOYgJue2r5&ust=1757571877886000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMiM2c_HzY8DFQAAAAAdAAAAABAE" alt="Chatbot Logo" width="200"/>
 </p>
 
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
@@ -79,5 +79,6 @@ POST /conversations → buat percakapan baru
 POST /chat → kirim pesan ke chatbot
 
 GET /conversations/{cid}/messages → lihat riwayat chat
+
 
 
