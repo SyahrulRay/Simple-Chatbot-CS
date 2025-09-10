@@ -1,7 +1,7 @@
 README – Chatbot Customer Support
 
 
-1. Persiapan Environment
+**1. Persiapan Environment**
 
 Sebelum memulai, pastikan Anda sudah menginstal:
 
@@ -15,7 +15,7 @@ SQLite (sudah tersedia default di Python)
 
 Docker (untuk kontainerisasi, opsional tapi direkomendasikan)
 
-2. Clone & Struktur Project
+**2. Clone & Struktur Project**
 
 Clone repository ini, lalu masuk ke folder project. Struktur folder utamanya:
 
@@ -30,7 +30,7 @@ project-root/
 │── requirements.txt
 │── Dockerfile
 
-3.Instalasi Dependencies
+**3.Instalasi Dependencies**
 
 Buat virtual environment (opsional tapi disarankan):
 python -m venv venv
@@ -41,19 +41,19 @@ Lalu install dependencies:
 
 pip install -r requirements.txt
 
-4. Setup Database
+**4. Setup Database**
 
 Inisialisasi database SQLite (chatbot.db) sesuai schema, buka lokasi project menggunakan cd:
 
 sqlite3 chatbot.db < schema.sql
 
-6. Menjalankan Aplikasi
+**5. Menjalankan Aplikasi**
 
 Jalankan API server dengan Uvicorn:
 
 uvicorn app.main:app --reload
 
-7. API Endpoints
+**6. API Endpoints**
 
 Beberapa endpoint utama:
 
@@ -64,3 +64,4 @@ POST /conversations → buat percakapan baru
 POST /chat → kirim pesan ke chatbot
 
 GET /conversations/{cid}/messages → lihat riwayat chat
+
