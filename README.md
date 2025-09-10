@@ -1,4 +1,19 @@
-README – Chatbot Customer Support
+README
+
+# 🤖 Chatbot Customer Support
+
+<p align="center">
+  <img src="assets/logo.png" alt="Chatbot Logo" width="200"/>
+</p>
+
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green)
+![Docker](https://img.shields.io/badge/docker-ready-blue)
+![License](https://img.shields.io/badge/license-MIT-yellow)
+
+## 📖 About
+Chatbot Customer Support adalah aplikasi berbasis FastAPI yang terintegrasi dengan LLM (Ollama) 
+untuk membantu pelanggan mengecek status pesanan, informasi produk, dan kebijakan garansi.
 
 
 **1. Persiapan Environment**
@@ -64,4 +79,5 @@ POST /conversations → buat percakapan baru
 POST /chat → kirim pesan ke chatbot
 
 GET /conversations/{cid}/messages → lihat riwayat chat
+
 
